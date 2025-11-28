@@ -2,7 +2,7 @@
 namespace Tyuiu.ShevchenokSE.Sprint3.Task1.V28.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void ValidGetSumSeries()

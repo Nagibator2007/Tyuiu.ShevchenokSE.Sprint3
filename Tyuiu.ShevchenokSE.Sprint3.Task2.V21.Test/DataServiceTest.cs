@@ -2,7 +2,7 @@
 namespace Tyuiu.ShevchenokSE.Sprint3.Task2.V21.Test
 {
     [TestClass]
-    public class DataServiceTest
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void ValidGetMultSeries()
