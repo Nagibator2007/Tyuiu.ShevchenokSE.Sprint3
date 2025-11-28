@@ -5,7 +5,6 @@ namespace Tyuiu.ShevchenokSE.Sprint3.Task2.V21
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
             Console.Title = "Спринт #3 | Выполнил: Шевченок С.Е. | СМАРТб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
@@ -20,6 +19,7 @@ namespace Tyuiu.ShevchenokSE.Sprint3.Task2.V21
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
+            DataService ds = new DataService();
             double value = 1.5;
             int startValue = 1;
             int stopValue = 10;
